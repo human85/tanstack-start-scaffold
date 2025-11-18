@@ -1,4 +1,4 @@
-import { createFileRoute } from '@tanstack/react-router';
+import { Link, createFileRoute } from '@tanstack/react-router';
 import {
   Route as RouteIcon,
   Server,
@@ -68,6 +68,8 @@ function App() {
               </span>
             </h1>
           </div>
+
+          <Link to="/about">About</Link>
 
           <p className="mb-4 text-2xl font-light text-gray-300 md:text-3xl">
             The framework for next generation AI applications
